@@ -32,7 +32,8 @@ def check_message(text: str, signals=(), url: str = URL) -> dict:
             {"role": "user", "content": _prompt(text, signals)},
         ],
         "chat_template_kwargs": {"enable_thinking": False},
-        "temperature": 0,
+        "temperature": 0.2,
+        "repeat_penalty": 1.1,
         "seed": 42,
         "max_tokens": 200,
     }
