@@ -1,0 +1,517 @@
+[
+ {
+  "id": "tr01",
+  "lang": "tr",
+  "label": "scam",
+  "text": "PTT: Paketiniz gumrukte bekliyor. 24 saat icinde 15 TL odeme yapmazsaniz iade edilecek. Odeme: tinyurl.com/ptt-odeme",
+  "signals": [
+   "link",
+   "shortened_link"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Bu mesaj bir oltalama saldırısıdır veinanç dışı bir siteye yönlendirme içermektedir.\nACTION: Mesajdaki bağlantıya tıklemeyin ve numarayı engelleyin."
+ },
+ {
+  "id": "tr02",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Sayin musterimiz, kartiniz ile 4.850 TL tutarinda islem yapildi. Siz yapmadiysaniz dogrulama kodunu bu numaraya iletin: 0532 000 00 00",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Bu bir kimlik avı (phishing) mesajıdır ve dairedenin bilgilerinizi çalmaya çalışmaktadır.\nACTION: Mesajdaki numaraya hiçbir kod göndermeyin ve bui numarayı engelleyin."
+ },
+ {
+  "id": "tr03",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Tebrikler! Cekilisimizde 50.000 TL kazandiniz. Odulunuzu almak icin TC kimlik no ve kart bilgilerinizi yanitlayin.",
+  "signals": [
+   "credential_request",
+   "threat_or_prize"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Kişisel ve finansal bilgileri çalmak amacıyla dairedeni bir dolandırıcılık girişimidir.\nACTION: Mesajı görmezden gelin ve hiçbir bilgiyi paylaşmayın."
+ },
+ {
+  "id": "tr04",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Anne yeni numaram bu, telefonum bozuldu. Acil bir faturam var, 3.000 TL gonderebilir misin? IBAN simdi atiyorum",
+  "signals": [
+   "urgency"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Tanıdık gibi görünen ancak acil para isteyen mesajlar genellikle dolandırıcılık amaçlıdır.\nACTION: Parayı göndermeden önce mutlaka arkadaşınızı başka bir kanaldan arayarak teyit edin."
+ },
+ {
+  "id": "tr05",
+  "lang": "tr",
+  "label": "scam",
+  "text": "e-Devlet: Vergi borcunuz icin icra islemi baslatilacaktir. Itiraz icin: http://91.214.7.3/edevlet",
+  "signals": [
+   "ip_link",
+   "link"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Gönderilen bağlantı resmi bir devlet kurumuna ait değil ve kimlik avına yöneliktir.\nACTION: Mesajdaki linke tıklmeyin ve göndericiyi engelleyin."
+ },
+ {
+  "id": "tr06",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Instagram guvenlik: Hesabiniz telif ihlali nedeniyle kapatilacak. Itiraz formu: cutt.ly/itiraz-form 24 saat",
+  "signals": [
+   "link",
+   "shortened_link"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Instagram bu tür kısa mesajlar veya dış bağlantılar üzerinden hesap kapatma uyarısı göndermez.\nACTION: Mesajdaki linke tıklemeyin ve resmi uygulamayı kullanın."
+ },
+ {
+  "id": "tr07",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Toplanti saat 15:00'e ertelendi, oda kapi 3'e alindi.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: Bu mesajin bir dolandırıcılıkla ilgisi yok, sadece bir toplantı güncellemesidir.\nACTION: Bilgiyi dikkate alın ve toplantıya katılın."
+ },
+ {
+  "id": "tr08",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Siparisiniz kargoya verildi. Takip numarasi: 1234567890. Teslimat 2-3 is gunu.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: Bu mesaj standart bir kargo bilgilendirmesi gibi görünüyor.\nACTION: Siparişinizi takip etmek içininize güvenileni kullanın."
+ },
+ {
+  "id": "tr09",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Dogrulama kodunuz: 482915. Bu kodu kimseyle paylasmayin.",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: Bu bir doğrulama kodudur ve genellikle otomatik sistemler tarafından gönderilir.\nACTION: Kodu kimseyle paylaşmayın ve mesajı görmezden gelin."
+ },
+ {
+  "id": "tr10",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Randevunuz yarin saat 10:30'da Kadikoy subesinde. Iptal icin 0850 000 00 00 numarasini arayin.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "suspicious",
+  "full": "suspicious",
+  "full_model": "suspicious",
+  "broken": false,
+  "raw": "VERDICT: suspicious\nREASON: Bilinmeyen bir numaradan gelen randevu mesajı şüpheli görünebilir.\nACTION: Mesajdaki numarayı aramayın ve kaynağı doğrulamadan işlem yapmayın."
+ },
+ {
+  "id": "tr11",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Selam, ders notlarini attim, Drive klasorunde: https://drive.google.com/drive/folders/abc",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "suspicious",
+  "full": "suspicious",
+  "full_model": "suspicious",
+  "broken": false,
+  "raw": "VERDICT: suspicious\nREASON: Tanınmayan bir kaynaktan geleninle ilgiliinşeyen bir dosya paylaşımı şüpheli olabilir.\nACTION: Bağlantıya tıklamadan önce göndereni kontrol edin."
+ },
+ {
+  "id": "tr12",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Ekim donemi faturaniz 312,40 TL. Son odeme tarihi 15 Ekim. Uygulamamizdan odeme yapabilirsiniz.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: Bu bir fatura bilgilendirme mesajıdır veinançlı bir kurumdan gelmektedir.\nACTION: Ödemeyi yapmak için resmi uygulamayı kullanın."
+ },
+ {
+  "id": "ar01",
+  "lang": "ar",
+  "label": "scam",
+  "text": "مبروك! فزت بسيارة في السحب الأسبوعي. للاستلام أرسل رقم بطاقتك ورمز التحقق إلى هذا الرقم",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: يطلب معلومات حساسة (رقم البطاقة) للفوز بجائزة وهمية.\nACTION: لا تشارك بياناتك البنكية مع أي جهة غير موثوقة."
+ },
+ {
+  "id": "ar02",
+  "lang": "ar",
+  "label": "scam",
+  "text": "تنبيه من البنك: تم تعليق بطاقتك. سجّل الدخول فورًا لإعادة التفعيل: http://bank-verify.top/login",
+  "signals": [
+   "link",
+   "threat_or_prize",
+   "urgency"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: الرابط يؤدي إلى موقع غير رسمي لسرقة البيانات الشخصية.\nACTION: لا تنقر على الرابط وتجاهل الرسالة."
+ },
+ {
+  "id": "ar03",
+  "lang": "ar",
+  "label": "scam",
+  "text": "ماما جوالي انكسر وهذا رقمي الجديد، أحتاج تحويل 2000 بسرعة وما تقولي لأبوي",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: يطلب المال بشكل عاجل ويدعي وجود سرة لعدم إخبار شخص آخر.\nACTION: لا ترسل أي مبالغ وتواصل مع الشخص عبر وسيلة اتصال أخرى للتأكد من هويته."
+ },
+ {
+  "id": "ar04",
+  "lang": "ar",
+  "label": "scam",
+  "text": "شركة الشحن: لم نتمكن من توصيل طردك. ادفع رسوم 9 ريال خلال 24 ساعة: rb.gy/pay-now",
+  "signals": [
+   "link",
+   "shortened_link",
+   "urgency"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: الرابط مشبوه ويطلب دفع مبالغ بسيطة لسرقة البيانات أو الدخول على موقع ضار.\nACTION: لا تضغط على الرابط وتجاهل الرسالة."
+ },
+ {
+  "id": "ar05",
+  "lang": "ar",
+  "label": "scam",
+  "text": "وظيفة من المنزل براتب 5000 دولار أسبوعيًا بدون خبرة. أرسل لنا نسخة من جواز سفرك وكلمة مرور بريدك لنبدأ",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: يطلب المرسل معلومات حساسة (جواز السفر وكلمة المرور) للحصول على وظيفة وهمية.\nACTION: لا تشارك بياناتك الشخصية وتجاهل الرسالة فوراً."
+ },
+ {
+  "id": "ar06",
+  "lang": "ar",
+  "label": "scam",
+  "text": "تم رصد دخول مشبوه إلى حسابك. أرسل رمز التحقق الذي وصلك الآن لنحمي حسابك",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: يطلب منك إرسال رمز تحقق لتجاوز الأمان، وهو أسلوب اختراق شائع.\nACTION: لا تشارك الرمز مع أي شخص ولا تضغط على روابط مشبوهة."
+ },
+ {
+  "id": "ar07",
+  "lang": "ar",
+  "label": "safe",
+  "text": "اجتماع الفريق تأجل إلى الخميس الساعة 4، ابعتلي إذا في مشكلة",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: الرسالة تبدو كإشعار داخلي عادي بخصوص اجتماع عمل.\nACTION: لا يوجد إجراء مطلوب، يمكنك الرد فقط إذا كانت لديك مشكلة."
+ },
+ {
+  "id": "ar08",
+  "lang": "ar",
+  "label": "safe",
+  "text": "رمز التحقق الخاص بك هو 553821. لا تشاركه مع أحد.",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: هذه رسالة رمز تحقق تلقائية من نظام أو تطبيق ما.\nACTION: تجاهل الرسالة ولا تشارك الكود مع أي شخص."
+ },
+ {
+  "id": "ar09",
+  "lang": "ar",
+  "label": "safe",
+  "text": "موعدك مع الدكتور غدًا الساعة 10:30. للإلغاء اتصل بالعيادة.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: رسالة تأكيد موعد طبي عادي ولا تحتوي على روابط أو طلبات مشبوهة.\nACTION: لا يتطلب الأمر القيام بأي إجراء حالياً."
+ },
+ {
+  "id": "ar10",
+  "lang": "ar",
+  "label": "safe",
+  "text": "هذا رابط ملفات المحاضرة: https://drive.google.com/drive/folders/xyz",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: الرابط يبدو أنه لمجلد على Google Drive لملفات تعليمية.\nACTION: يمكنك فتح الرابط إذا كنت تتوقع استلام ملفات المحاضرة."
+ },
+ {
+  "id": "ar11",
+  "lang": "ar",
+  "label": "safe",
+  "text": "تم استلام طلبك رقم 4412 وسيصلك خلال يومين عمل.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: رسالة تأكيد طلب عادية ولا تحتوي على روابط أو طلبات مشبوهة.\nACTION: لا داعي لاتخاذ أي إجراء."
+ },
+ {
+  "id": "ar12",
+  "lang": "ar",
+  "label": "safe",
+  "text": "شو رأيك نطلع السبت نتغدى مع الشباب؟",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: هذه رسالة شخصية عادية لا تحتوي على أي روابط أو طلبات مشبوهة.\nACTION: يمكنك الرد على الرسالة بشكل طبيعي."
+ },
+ {
+  "id": "en01",
+  "lang": "en",
+  "label": "scam",
+  "text": "Your Netflix payment failed. Update your billing within 24 hours to avoid cancellation: netflix-billing.support/update",
+  "signals": [
+   "urgency"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: El mensaje utiliza un enlace sospechoso y crea urgencia para robar datos personales.\nACTION: No hagas clic en el enlace y cancela la comunicación."
+ },
+ {
+  "id": "en02",
+  "lang": "en",
+  "label": "scam",
+  "text": "Hi, this is Mike from IT. We're upgrading mailboxes, reply with your password to keep your account active.",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Solicitando contraseñas es una táctica clásica de phishing para robar cuentas.\nACTION: No respondas y no compartas tus credenciales con nadie."
+ },
+ {
+  "id": "en03",
+  "lang": "en",
+  "label": "scam",
+  "text": "You've been selected for a $500 Amazon gift card! Claim now: bit.ly/amz-gift",
+  "signals": [
+   "link",
+   "shortened_link"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: This is a classic phishing attempt using a fake prize to steal data or credentials.\nACTION: Do not click the link and delete the message."
+ },
+ {
+  "id": "en04",
+  "lang": "en",
+  "label": "scam",
+  "text": "Mom, I lost my phone, this is my new number. Can you send $400 for a bill? Don't call, just text.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: This follows the pattern of an \"impersonation\" scam or \"emergency\" scam.\nACTION: Do not send money and contact the person through a known channel to verify."
+ },
+ {
+  "id": "en05",
+  "lang": "en",
+  "label": "scam",
+  "text": "FedEx: your package is held due to an unpaid customs fee of $2.99. Pay at http://fedex-fee.info/pay",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: El enlace dirige a un sitio fraudulento para robar datos personales o bancarios.\nACTION: No hagas clic en el enlace y elimina el mensaje."
+ },
+ {
+  "id": "en06",
+  "lang": "en",
+  "label": "scam",
+  "text": "Congratulations, you've won our lottery. To release your funds, send your bank account number and a copy of your passport.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "full_model": "scam",
+  "broken": false,
+  "raw": "VERDICT: scam\nREASON: Solicitación de datos personales y bancarios para un premio no solicitado es típico de fraude.\nACTION: No respondas al mensaje y no compartas ninguna información personal."
+ },
+ {
+  "id": "en07",
+  "lang": "en",
+  "label": "safe",
+  "text": "Your Uber is arriving in 2 minutes. Look for a white Toyota.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: This appears to be a standard transactional notification from a ride-sharing service.\nACTION: Proceed to the pickup location as instructed."
+ },
+ {
+  "id": "en08",
+  "lang": "en",
+  "label": "safe",
+  "text": "Your verification code is 904112. Don't share it with anyone.",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: This is a standard automated verification code or OTP message.\nACTION: Do not share the code with anyone and ignore if you did not request it."
+ },
+ {
+  "id": "en09",
+  "lang": "en",
+  "label": "safe",
+  "text": "Reminder: dentist appointment tomorrow at 10:30. Reply C to confirm.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: Es un recordatorio de una cita médica legítima.\nACTION: Confirma la cita si es necesaria."
+ },
+ {
+  "id": "en10",
+  "lang": "en",
+  "label": "safe",
+  "text": "Here are the slides from today: https://drive.google.com/file/d/abc/view",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "suspicious",
+  "full": "suspicious",
+  "full_model": "suspicious",
+  "broken": false,
+  "raw": "VERDICT: suspicious\nREASON: El enlace podría dirigir a un sitio malicioso o phishing bajo la apariencia de una presentación.\nACTION: No hagas clic en el enlace si no conoces al remitente."
+ },
+ {
+  "id": "en11",
+  "lang": "en",
+  "label": "safe",
+  "text": "Hey, are we still on for lunch on Saturday?",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: Es un mensaje personal de carácter casual y sin enlaces sospechosos.\nACTION: Responde normalmente a la pregunta."
+ },
+ {
+  "id": "en12",
+  "lang": "en",
+  "label": "safe",
+  "text": "Your order #88213 has shipped and will arrive Thursday.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "full_model": "safe",
+  "broken": false,
+  "raw": "VERDICT: safe\nREASON: El mensaje parece ser una notificación de envío estándar sin enlaces ni solicitudes sospechosas.\nACTION: No es necesario realizar ninguna acción si no esperabas un paquete."
+ }
+]

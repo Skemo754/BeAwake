@@ -13,7 +13,7 @@
   "full": "scam",
   "full_model": "scam",
   "broken": false,
-  "raw": "VERDICT: scam\nREASON: Bu mesaj bir oltalama saldırısıdır veinanç dışı bir siteye yönlendirme içermektedir.\nACTION: Mesajdaki bağlantıya tıklemeyin ve numarayı engelleyin."
+  "raw": "VERDICT: scam\nREASON: Bu mesaj bir oltalama saldırısıdır veinşaansız bir ödeme sitesine yönlendirme içermektedir.\nACTION: Mesajdaki bağlantıya tıklemeyin ve göndericiyi engelleyin."
  },
  {
   "id": "tr02",
@@ -28,7 +28,7 @@
   "full": "scam",
   "full_model": "scam",
   "broken": false,
-  "raw": "VERDICT: scam\nREASON: Bu bir kimlik avı (phishing) mesajıdır ve dairedenin bilgilerinizi çalmaya çalışmaktadır.\nACTION: Mesajdaki numaraya hiçbir kod göndermeyin ve bui numarayı engelleyin."
+  "raw": "VERDICT: scam\nREASON: Bu bir kimlik avı mesajıdır ve şüpheli bir numarayla iletişime geçmenizi istemektedir.\nACTION: Mesajdaki numaraya kod göndermeyin ve bui mesajı daima engelleyin."
  },
  {
   "id": "tr03",
@@ -44,7 +44,7 @@
   "full": "scam",
   "full_model": "scam",
   "broken": false,
-  "raw": "VERDICT: scam\nREASON: Kişisel ve finansal bilgileri çalmak amacıyla dairedeni bir dolandırıcılık girişimidir.\nACTION: Mesajı görmezden gelin ve hiçbir bilgiyi paylaşmayın."
+  "raw": "VERDICT: scam\nREASON: Kişisel bilgileri ve kart bilgilerini talep eden bu mesaj bir dolandırıcılık girişimidir.\nACTION: Mesajı görmezden gelin ve hiçbir bilgiyi paylaşmayın."
  },
  {
   "id": "tr04",
@@ -59,7 +59,7 @@
   "full": "scam",
   "full_model": "scam",
   "broken": false,
-  "raw": "VERDICT: scam\nREASON: Tanıdık gibi görünen ancak acil para isteyen mesajlar genellikle dolandırıcılık amaçlıdır.\nACTION: Parayı göndermeden önce mutlaka arkadaşınızı başka bir kanaldan arayarak teyit edin."
+  "raw": "VERDICT: scam\nREASON: Tanıdık birinin kimliğine bürünerek para talep edenın tipik bir dolandırıcılık yöntemidir.\nACTION: Mesajı gönderen kişiyle başka bir kanaldan iletişime geçin veinin doğruluğunu teyit edin."
  },
  {
   "id": "tr05",

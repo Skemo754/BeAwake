@@ -1,0 +1,521 @@
+[
+ {
+  "id": "h-tr01",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Garanti BBVA: Mobil sifreniz bugun sona eriyor. Yenilemek icin giris yapin: garanti-mobil.xyz/giris",
+  "signals": [
+   "link",
+   "suspicious_domain"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Banka şifresini güncelleme bahanesiylein sahte bir web sitesine yönlendirme yapıyor.\nACTION: Mesajdaki linke tıklemeyin ve bankanızın resmi kanallarını kullanın."
+ },
+ {
+  "id": "h-tr02",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Merhaba, ben kurye. Adresinizi bulamadim, lutfen 5 TL adres dogrulama ucreti odeyin: https://kurye-odeme.click/5tl",
+  "signals": [
+   "fee_demand",
+   "link",
+   "suspicious_domain"
+  ],
+  "rules": "scam",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Ödeme talep eden bir link üzerinden para çalınmaya yönelik bir dolandırıcılık girişimi.\nACTION: Mesajdaki bağlantıya tıklemeyin ve göndericiyle iletişime geçmeyin."
+ },
+ {
+  "id": "h-tr03",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Kuzenim acil yardim lazim, kartim bloke oldu. Hesabina 1.500 TL gonderirsen yarin veririm, bu yeni numaram",
+  "signals": [
+   "impersonation",
+   "threat",
+   "urgency"
+  ],
+  "rules": "scam",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Acil durum ve para talebi içeren mesajlar genellikle dolandırıcılık amaçlıdır.\nACTION: Göndermeyin ve numarayı engelleyin."
+ },
+ {
+  "id": "h-tr04",
+  "lang": "tr",
+  "label": "scam",
+  "text": "SGK: Prim borcunuz nedeniyle maasiniza haciz konulacak. Detaylar icin 0850 000 00 00 numarasini arayin ve TC kimlik numaranizi hazirlayin.",
+  "signals": [
+   "threat"
+  ],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Maaş haczi tehdidiyle kişisel bilgileriinizi almak için bir numara aranmaya yönlendiriliyorsunuz.\nACTION: Bu mesajdaki numarayı aramayın ve kimlik bilgilerinizi paylaşmayın."
+ },
+ {
+  "id": "h-tr05",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Cok kazancli yatirim firsati! 1000 TL yatir, 1 hafta icinde 5000 TL kazan. Grubumuza katil: t.me/yatirim_grubu",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Yatırım vaadiylein gruplara yönlendirme ve hızlı kazanç vaadi dolandırıcılık işaretidir.\nACTION: Mesajdaki bağlantıya tıklemeyin vei iletişime geçmeyin."
+ },
+ {
+  "id": "h-tr06",
+  "lang": "tr",
+  "label": "scam",
+  "text": "Sevgili musterimiz, e-fatura ile ilgili guncelleme yapmaniz gerekiyor. Sifrenizi ve dogrulama kodunu bu mesaja yanitlayin.",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Şifre ve doğrulama kodu gibi hassas bilgileri talep ediyor.\nACTION: Bu mesajı görmezden gelin ve kimlik bilgilerinizi paylaşmayın."
+ },
+ {
+  "id": "h-tr07",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Dersin saat 16:00'da basliyor, laboratuvar B blokta.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: Bu mesaj bir ders saati ve yeri hakkında bilgilendirme içermektedir.\nACTION: Mesajı dikkate alabilirsiniz."
+ },
+ {
+  "id": "h-tr08",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Dogrulama kodunuz 771204. Kodu kimseyle paylasmayin, calisanlarimiz asla istemez.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: Bu bir iki faktörlü doğrulama kodudur ve herhangi bir ödeme veya kişisel bilgi talep etmemektedir.\nACTION: Kodu kimseyle paylaşmayın ve mesajı görmezden gelin."
+ },
+ {
+  "id": "h-tr09",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Kargonuz subemize ulasti. Teslim almak icin kimliginizle gelmeniz yeterli.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: Bu mesaj bir kargo bilgilendirmesidir ve herhangi bir kişisel bilgi veya ödeme talep etmemektedir.\nACTION: Paketi teslim almak için ilgili şubeye gidebilirsiniz."
+ },
+ {
+  "id": "h-tr10",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Selam, toplanti linki: https://meet.google.com/abc-defg-hij",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: Bu mesaj bir toplantı daveti ve standart bir Google Meet bağlantısı içeriyor.\nACTION: Toplantıya katılmak için bağlantıyı kullanabilirsiniz."
+ },
+ {
+  "id": "h-tr11",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Hesap ozetiniz hazir. Gormek icin mobil uygulamaya giris yapabilirsiniz.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "suspicious",
+  "full": "suspicious",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: suspicious\nREASON: Banka hesap özeti içinin bir link yerine uygulama yönlendirmesiin de olsa, mesajın içeriği belirsizdir.\nACTION: Mesajdaki bir bağlantıya tıklamak yerine doğrudan bankanızın resmi uygulamasını kullanın."
+ },
+ {
+  "id": "h-tr12",
+  "lang": "tr",
+  "label": "safe",
+  "text": "Annecim aksam yemegine geliyorum, bir sey lazim mi?",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: Bu mesaj kişisel bir mesajdır ve herhangi birin bilgisi veya dezenformasyon içermez.\nACTION: Cevap verebilirsiniz."
+ },
+ {
+  "id": "h-ar01",
+  "lang": "ar",
+  "label": "scam",
+  "text": "عزيزي العميل، سيتم إيقاف خدمتك خلال ساعتين. حدّث بياناتك الآن عبر: https://stc-update.support/pay",
+  "signals": [
+   "link",
+   "suspicious_domain",
+   "threat"
+  ],
+  "rules": "scam",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: رسالة تهديد بإيقاف الخدمة لطلب معلومات أو دفع عبر رابط مشبوه.\nACTION: لا تنقر على الرابط وتجاهل الرسالة."
+ },
+ {
+  "id": "h-ar02",
+  "lang": "ar",
+  "label": "scam",
+  "text": "أنا أخوك، رقمي الجديد هذا. محتاج 1500 دولار ضروري وبرجعها لك بكرة، لا تتصل",
+  "signals": [
+   "impersonation"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: يطلب المال بشكل عاجل ويطلب عدم الاتصال لتجنب التحقق.\nACTION: لا ترسل أموالاً ولا تتفاعل مع الرسالة."
+ },
+ {
+  "id": "h-ar03",
+  "lang": "ar",
+  "label": "scam",
+  "text": "تهانينا! تم اختيار رقمك للفوز بجائزة 10000 ريال. تواصل معنا عبر واتساب لتأكيد الاستلام: wa.me/966500000000",
+  "signals": [
+   "link",
+   "prize"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: عرض ربح وهمي لطلب التواصل مع رقم غير معروف للحصول على جائزة.\nACTION: لا تقم بالضغط على الرابط أو التواصل مع الجهة المذكبة."
+ },
+ {
+  "id": "h-ar04",
+  "lang": "ar",
+  "label": "scam",
+  "text": "هيئة الزكاة: لديك مبلغ مسترد 1200 ريال. أدخل رقم بطاقتك البنكية لاستلامه",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: يطلب بيانات البطاقة البنكية للحصول على مبلغ مالي وهمي.\nACTION: لا تشارك بياناتك البنكية ولا تضغط على أي روابط."
+ },
+ {
+  "id": "h-ar05",
+  "lang": "ar",
+  "label": "scam",
+  "text": "إدارة البريد: تعذر تسليم طردك بسبب عنوان ناقص. اضغط هنا لتحديث العنوان: bit.ly/4kQz",
+  "signals": [
+   "link",
+   "shortened_link"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: يطلب الضغط على رابط لتحديث البيانات بسبب مشكلة وهمية.\nACTION: لا تضغط على الرابط وتجاهل الرسالة."
+ },
+ {
+  "id": "h-ar06",
+  "lang": "ar",
+  "label": "scam",
+  "text": "مرحبا، أنا من فريق دعم واتساب، أرسل لنا الكود المكوّن من 6 أرقام الذي وصلك لتفعيل حسابك",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: يطلب رمز التحقق الخاص بحسابك لسرقته.\nACTION: لا تشارك الرمز مع أي شخص أبداً."
+ },
+ {
+  "id": "h-ar07",
+  "lang": "ar",
+  "label": "safe",
+  "text": "تم شحن طلبك رقم 7781، التسليم المتوقع الخميس.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: رسالة تأكيد طلب عادية لا تطلب بيانات شخصية أو دفع.\nACTION: تجاهل الرسالة ولا داعي للقلق."
+ },
+ {
+  "id": "h-ar08",
+  "lang": "ar",
+  "label": "safe",
+  "text": "رمز التحقق الخاص بك 330918. لا تشاركه مع أي شخص حتى لو ادعى أنه من البنك.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: رسالة رمز تحقق بنكية اعتيادية ولا تطلب معلومات شخصية.\nACTION: تجاهل الرسالة ولا تشارك الرمز مع أحد."
+ },
+ {
+  "id": "h-ar09",
+  "lang": "ar",
+  "label": "safe",
+  "text": "الاجتماع غدًا الساعة 11 في قاعة 2، رابط الاجتماع: https://zoom.us/j/123456789",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: رسالة تحتوي على موعد اجتماع ورابط منصة معروفة.\nACTION: يمكنك قبول الدعوة وحضور الاجتماع في الوقت المحدد."
+ },
+ {
+  "id": "h-ar10",
+  "lang": "ar",
+  "label": "safe",
+  "text": "تذكير: موعد التطعيم يوم الأحد الساعة 9 صباحًا. للتعديل اتصل بـ 920000000.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: رسالة تذكير بموعد طبي وتتضمن رقم اتصال للتعديل.\nACTION: لا توجد إجراءات مطلوبة، يمكنك الحضور في الموعد المحدد."
+ },
+ {
+  "id": "h-ar11",
+  "lang": "ar",
+  "label": "safe",
+  "text": "يا بابا ابعتلي صورة الورقة اللي على المكتب لو سمحت",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: رسالة شخصية واضحة لا تطلب بيانات حساسة أو أموالاً.\nACTION: يمكنك الرد وإرسال الصورة المطلوبة."
+ },
+ {
+  "id": "h-ar12",
+  "lang": "ar",
+  "label": "safe",
+  "text": "فاتورة الكهرباء لشهر أكتوبر 245 ريال، آخر موعد للسداد 20 أكتوبر عبر التطبيق.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: رسالة إخبارية بفاتورة كهرباء ولا تطلب بيانات شخصية أو دفعاً فورياً.\nACTION: لا توجد إجراءات مطلوبة، يمكنك تجاهلها أو الدفع عبر القنوات الرسمية."
+ },
+ {
+  "id": "h-en01",
+  "lang": "en",
+  "label": "scam",
+  "text": "Your Apple ID has been locked for security reasons. Verify now: apple-id-verify.top/login",
+  "signals": [
+   "link",
+   "suspicious_domain",
+   "threat"
+  ],
+  "rules": "scam",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: The message uses a suspicious URL to request account credentials or verification.\nACTION: Do not click the link and do not provide any personal information."
+ },
+ {
+  "id": "h-en02",
+  "lang": "en",
+  "label": "scam",
+  "text": "Hey it's Dad, dropped my phone in water, using a friend's phone. I'm stuck abroad, can you wire $800 right now? I'll explain later",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Requesting an urgent money transfer via a personal emergency story.\nACTION: Do not send money and contact the person through a different known channel to verify."
+ },
+ {
+  "id": "h-en03",
+  "lang": "en",
+  "label": "scam",
+  "text": "HR notice: update your payroll details before Friday or your salary will be delayed. Reply with your bank account number and sort code.",
+  "signals": [
+   "credential_request"
+  ],
+  "rules": "suspicious",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Requesting sensitive financial information (bank details) via a message to avoid a penalty.\nACTION: Do not provide any banking information and contact HR through official channels."
+ },
+ {
+  "id": "h-en04",
+  "lang": "en",
+  "label": "scam",
+  "text": "You have an unpaid toll balance of $4.15. Avoid a late fee by paying now: http://us-toll-pay.info",
+  "signals": [
+   "fee_demand",
+   "link",
+   "suspicious_domain"
+  ],
+  "rules": "scam",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: The message uses a sense of urgency and a suspicious link to request payment for a debt.\nACTION: Do not click the link or provide any personal information."
+ },
+ {
+  "id": "h-en05",
+  "lang": "en",
+  "label": "scam",
+  "text": "Congrats! You're our 1,000,000th visitor. Claim your free iPhone: tinyurl.com/free-ip15",
+  "signals": [
+   "link",
+   "prize",
+   "shortened_link"
+  ],
+  "rules": "scam",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Offers a high-value prize for a generic milestone and uses a link to claim it.\nACTION: Do not click the link or provide personal information."
+ },
+ {
+  "id": "h-en06",
+  "lang": "en",
+  "label": "scam",
+  "text": "I'm a recruiter at Meta, paying $60/hour for simple online tasks. Message me on Telegram to start, no experience needed",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "scam",
+  "full": "scam",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: scam\nREASON: Offers high pay for \"simple tasks\" and directs users to an external messaging app are common recruitment scams.\nACTION: Do not contact the sender or provide any personal information."
+ },
+ {
+  "id": "h-en07",
+  "lang": "en",
+  "label": "safe",
+  "text": "Your flight BA117 is on time. Gate B12 opens at 17:40.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: This is a standard status update for a flight and does not request personal information.\nACTION: None."
+ },
+ {
+  "id": "h-en08",
+  "lang": "en",
+  "label": "safe",
+  "text": "Use code 228841 to log in. Never share this code with anyone.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: This is a standard one-time verification code for authentication.\nACTION: Do not share the code with anyone and proceed with your login."
+ },
+ {
+  "id": "h-en09",
+  "lang": "en",
+  "label": "safe",
+  "text": "Can you send me the address for Saturday? I'll bring dessert.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: This is a personal message regarding an appointment or social gathering.\nACTION: None."
+ },
+ {
+  "id": "h-en10",
+  "lang": "en",
+  "label": "safe",
+  "text": "Invoice #4471 from Acme is attached. Payment is due on 15 Nov. Let me know if you have questions.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: This is a standard business communication regarding an invoice and payment date.\nACTION: None needed, unless you were expecting this specific invoice."
+ },
+ {
+  "id": "h-en11",
+  "lang": "en",
+  "label": "safe",
+  "text": "Meeting moved to 3pm: https://teams.microsoft.com/l/meetup-join/abc",
+  "signals": [
+   "link"
+  ],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: The message provides a meeting update with a standard platform link.\nACTION: None."
+ },
+ {
+  "id": "h-en12",
+  "lang": "en",
+  "label": "safe",
+  "text": "Please reply with your availability for next week's interview.",
+  "signals": [],
+  "rules": "safe",
+  "gemma": "safe",
+  "full": "safe",
+  "broken": false,
+  "wrong_lang": false,
+  "raw": "VERDICT: safe\nREASON: This is a standard scheduling request for an interview.\nACTION: Reply with your available times."
+ }
+]
